@@ -1,3 +1,5 @@
+
+
 # BMW R1200GS CAN-Bus Sniffer
 
 ## Objective
@@ -70,3 +72,42 @@ implementation but I thought it was a cool demo.
 - [Seeeduino CAN Bus Shield Wiki](http://www.seeedstudio.com/wiki/CAN-BUS_Shield_V1.2)
 - [Bluetooth Serial Link](https://www.adafruit.com/products/1588)
 - [S1000RR OBDII Reader Project](http://www.s1000rrforum.com/forum/s1000rr-hp4-do-yourself/19954-diy-obd2-s100rr-extended-display-gauges-obd2-code-reader.html)
+
+
+
+--
+
+
+
+Development	
+HomeBlack Box EmbeddedGardenThingmClusterCANBusGatewaymTPMSSDRWeatherBBBAndroid-BlueZOther StuffContact	
+CANBusGateway
+Bluetooth CAN Message Gateway
+
+
+Relays CAN Message over Bluetooth RFCOMM used by mCluster
+
+
+
+Parts List
+
+Leonardo Canbus
+CANBusGateway Shield PCB
+HC-06 module
+Blue SMD LED
+Green SMD LED
+1kΩ SMD Resistor
+2kΩ SMD Resistor
+2x 470Ω SMD Resistor
+TEXAS INSTRUMENTS LM3940IMP-3.3/NOPB IC, LDO VOLT REG, 3.3V, 1A, SOT-223-4
+2x9 Header
+DB9 Backshell
+BMW Alarm Connector aka REPAIR PLUG, 8-PIN - NO. 611652
+
+
+3D Printable Case: 
+
+Arduino Source Code: CANBusGateway.ino
+
+Android Example App Source Code: https://github.com/kconger/org.thcongers.canbusgateway
+
